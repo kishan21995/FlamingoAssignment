@@ -20,6 +20,7 @@
             android:layout_gravity="bottom"
             android:background="?android:attr/windowBackground"
             app:itemBackground="@color/navi"
+            app:labelVisibilityMode="unlabeled"
             android:foreground="?attr/selectableItemBackground"
             app:itemIconTint="@drawable/bottom_navigation"
             app:itemTextColor="@android:color/white"
