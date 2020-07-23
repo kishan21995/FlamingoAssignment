@@ -21,7 +21,7 @@ android {
         release {
             debuggable false
 
-            buildConfigField "String", "API_SERVER_IP", "\"https://api.fitnessquotient.in/api/\""
+            buildConfigField "String", "API_SERVER_IP", "\"https://facesolution.in/dibble/public/api/\""
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
@@ -29,7 +29,7 @@ android {
             minifyEnabled false
             debuggable true
             multiDexEnabled true
-            buildConfigField "String", "API_SERVER_IP", "\"https://api.fitnessquotient.in/api/\""
+            buildConfigField "String", "API_SERVER_IP", "\"https://facesolution.in/dibble/public/api/\""
             //buildConfigField "String", "API_SERVER_IP", "\"http://13.126.93.95:8080\""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 

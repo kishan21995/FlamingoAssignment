@@ -9,7 +9,10 @@
     android:background="#000000"
     tools:context=".MusicFragment">
 
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -41,16 +44,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <ImageView
-            android:src="@drawable/threedots"
-            android:layout_gravity="center"
-            android:layout_marginLeft="150dp"
-            android:layout_width="40dp"
-            android:layout_height="30dp"/>
+
 
 
     </LinearLayout>
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:src="@drawable/threedots"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+       android:layout_alignParentRight="true"
+        android:layout_width="40dp"
 
+        android:layout_height="30dp"/>
 
+</RelativeLayout>
 
 </LinearLayout>
